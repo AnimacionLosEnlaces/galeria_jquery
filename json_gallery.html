@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="SemiColonWeb" />
+    <meta name="charset" content="utf-8">
+    <!-- Stylesheets
+    ============================================= -->
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lt IE 9]>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+
+    <title>Galer&iacute;a de fotos</title>
+    
+    <!--Jquery-->
+     <script type="text/javascript" src="js/jquery.js"></script>
+
+</head>
+
+<body class="stretched">
+
+    <!-- Document Wrapper
+    ============================================= -->
+    <div id="wrapper" class="clearfix">
+
+        
+        <!-- Content
+        ============================================= -->
+        <section id="content">
+
+            <div class="content-wrap">
+
+                <div class="container clearfix">
+
+                    <!-- Gallery Filter
+                    ============================================= -->
+                    <ul class="portfolio-filter clearfix" data-container="#portfolio" id="cats-container">
+
+                        <li class="activeFilter"><a href="#" data-filter="*">Mostrar todas</a></li>
+                        
+                        
+                    </ul><!-- #gallery-filter end -->
+
+                    <div class="portfolio-shuffle" data-container="#portfolio">
+                        <i class="icon-random"></i>
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <!-- Gallery Items
+                    ============================================= -->
+                    <div id="portfolio" class="portfolio grid-container clearfix">
+
+                        
+                    </div><!-- #gallery end -->
+
+                </div>
+
+            </div>
+
+        </section><!-- #content end -->
+
+        
+    
+
+
+
+
+<!-- External JavaScripts
+    ============================================= -->
+    <script type="text/javascript" src="js/json-import.js"></script>
+    
+<script>
+
+
+//Esperamos a que se cargue el documento    
+$(document).ready(function () {
+	var loadJS = function(url, implementationCode, location){
+    //url is URL of external file, implementationCode is the code
+    //to be called from the file, location is the location to 
+    //insert the <script> element
+
+    var scriptTag = document.createElement('script');
+    scriptTag.src = url;
+
+    scriptTag.onload = implementationCode;
+    scriptTag.onreadystatechange = implementationCode;
+
+    location.appendChild(scriptTag);
+	};
+	var yourCodeToBeCalled = function(){
+	console.log('cargado');
+	loadJS('js/functions.js', fin, document.body);
+	}
+	var fin = function(){
+		console.log('cargados');
+	}
+	loadJS('js/plugins.js', yourCodeToBeCalled, document.body);
+	
+
+    
+});
+</script>
+    <!--
+	<script type="text/javascript" src="js/plugins.js"></script>-->
+
+    <!-- Footer Scripts
+    ============================================= -->
+    <!--
+    <script type="text/javascript" src="js/functions.js"></script>-->
+    
+    
+
+
+</body>
+</html>
+    
+    
+
+
+
+
+

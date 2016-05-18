@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<categorias>
+    <cat> 
+        <nombre>Huesca</nombre>             
+        <filter>.pf-huesca</filter>
+    </cat>
+    <cat> 
+        <nombre>Zaragoza</nombre>             
+        <filter>.pf-zaragoza</filter>
+    </cat>
+    <cat> 
+        <nombre>Teruel</nombre>             
+        <filter>.pf-teruel</filter>
+    </cat>
+</categorias>

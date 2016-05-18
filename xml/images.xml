@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<images>
+    <image> 
+        <file>1.jpg</file>
+        <titulo>Prueba 1</titulo>
+        <subtitulo>Esto es una prueba</subtitulo>
+        <cat>pf-huesca</cat>
+    </image>
+    <image> 
+        <file>2.jpg</file>
+        <titulo>Prueba 2</titulo>
+        <subtitulo>Esto es una prueba</subtitulo>
+        <cat>pf-zaragoza</cat>
+    </image>
+    <image> 
+        <file>3.jpg</file>
+        <titulo>Prueba 3</titulo>
+        <subtitulo>Esto es una prueba</subtitulo>
+        <cat>pf-teruel</cat>
+    </image>
+    <image> 
+        <file>4.jpg</file>
+        <titulo>Prueba 4</titulo>
+        <subtitulo>Esto es una prueba</subtitulo>
+        <cat>pf-zaragoza</cat>
+    </image>
+    <image> 
+        <file>5.jpg</file>
+        <titulo>Prueba 5</titulo>
+        <subtitulo>Esto es una prueba</subtitulo>
+        <cat>pf-huesca pf-zaragoza</cat>
+    </image>
+    <image> 
+        <file>6.jpg</file>
+        <titulo>Prueba 6</titulo>
+        <subtitulo>Esto es una prueba</subtitulo>
+        <cat>pf-huesca</cat>
+    </image>
+    <image> 
+        <file>7.jpg</file>
+        <titulo>Prueba 7</titulo>
+        <subtitulo>Esto es una prueba</subtitulo>
+        <cat>pf-zaragoza</cat>
+    </image>
+</images>

@@ -1,0 +1,32 @@
+{
+  "images": [
+    {
+      "file": "1.jpg",
+      "titulo": "Primera imagen",
+	  "subtitulo": "Esta es la primera imagen",
+	  "cat": "pf-zaragoza"
+    },{
+      "file": "2.jpg",
+      "titulo": "Segunda imagen",
+	  "subtitulo": "Esta es la segunda imagen",
+	  "cat": "pf-huesca"
+    },{
+      "file": "3.jpg",
+      "titulo": "Tercera imagen",
+	  "subtitulo": "Esta es la tercera imagen",
+	  "cat": "pf-teruel"
+    }
+  ],
+  "categorias": [
+   {
+	  "texto": "Zaragoza",
+	  "filter": ".pf-zaragoza"
+   },{
+	  "texto": "Huesca",
+	  "filter": ".pf-huesca"
+   },{
+	  "texto": "Teruel",
+	  "filter": ".pf-teruel"
+   }
+  ]
+}
